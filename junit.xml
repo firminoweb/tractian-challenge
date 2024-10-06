@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="1" errors="0" time="4.348">
+  <testsuite name="AppComponent" errors="0" failures="1" skipped="0" timestamp="2024-10-06T20:00:15" time="3.377" tests="1">
+    <testcase classname="AppComponent should create the app" name="AppComponent should create the app" time="0.005">
+      <failure>TypeError: this.input.charCodeAt is not a function
+    at PlainCharacterCursor.charAt (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/compiler/fesm2022/compiler.mjs:16104:27)
+    at PlainCharacterCursor.updatePeek (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/compiler/fesm2022/compiler.mjs:16123:61)
+    at PlainCharacterCursor.init (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/compiler/fesm2022/compiler.mjs:16082:14)
+    at new _Tokenizer (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/compiler/fesm2022/compiler.mjs:15146:26)
+    at tokenize (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/compiler/fesm2022/compiler.mjs:15087:23)
+    at HtmlParser.parse (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/compiler/fesm2022/compiler.mjs:16291:32)
+    at HtmlParser.parse (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/compiler/fesm2022/compiler.mjs:25663:22)
+    at parseTemplate (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/compiler/fesm2022/compiler.mjs:27632:36)
+    at parseJitTemplate (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/compiler/fesm2022/compiler.mjs:29576:20)
+    at CompilerFacadeImpl.compileComponent (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/compiler/fesm2022/compiler.mjs:29260:52)
+    at Function.get (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/core/fesm2022/core.mjs:30543:47)
+    at getComponentDef (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/core/fesm2022/testing.mjs:1626:18)
+    at isStandaloneComponent (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/core/fesm2022/testing.mjs:1622:17)
+    at queueTypesFromModulesArrayRecur (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/core/fesm2022/testing.mjs:1355:26)
+    at TestBedCompiler.queueTypesFromModulesArray (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/core/fesm2022/testing.mjs:1378:9)
+    at TestBedCompiler.configureTestingModule (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/core/fesm2022/testing.mjs:875:18)
+    at _TestBedImpl.configureTestingModule (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/core/fesm2022/testing.mjs:1962:23)
+    at Function.configureTestingModule (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/@angular/core/fesm2022/testing.mjs:1789:37)
+    at /home/hectorbonilla/Projects/github/tractian-challenge/src/app/app.component.spec.ts:8:19
+    at _ZoneDelegate.invoke (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/zone.js/bundles/zone.umd.js:416:32)
+    at ProxyZoneSpec.Object.&lt;anonymous&gt;.ProxyZoneSpec.onInvoke (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/zone.js/bundles/zone-testing.umd.js:2176:43)
+    at _ZoneDelegate.invoke (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/zone.js/bundles/zone.umd.js:415:38)
+    at ZoneImpl.run (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/zone.js/bundles/zone.umd.js:147:47)
+    at Object.wrappedFunc (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)
+    at Promise.then.completed (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusHook (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/jest-circus/build/run.js:281:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/jest-circus/build/run.js:246:5)
+    at _runTestsForDescribeBlock (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/hectorbonilla/Projects/github/tractian-challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
